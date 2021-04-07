@@ -1,0 +1,309 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*start reading after this*/
+
+body {
+  background-color: #eceef1;
+  font-family: Helvetica;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+a {
+  color: #0077c5;
+}
+
+a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px 30px;
+}
+
+nav ul li {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+nav ul li li {
+  display: flex;
+}
+
+button {
+  background-color: #0077c5;
+  color: white;
+  border-radius: 7%;
+  border: 1px solid #4c4c4c;
+}
+
+header button {
+  display: inline-flex;
+  align-items: center;
+  padding: 3.5px 19px;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 32px;
+  color: gray;
+  font-weight: 600;
+  margin: 20px 0 10px 0;
+}
+
+section header li {
+  display: inline-block;
+  font-size: 19px;
+  margin: 0 2px;
+}
+section header li a {
+  color: gray;
+  display: flex;
+}
+
+section header ul {
+  width: 314px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.formContainer {
+  width: 318px;
+  background-color: white;
+  padding: 30px;
+  border: 1px solid #c7c7c7;
+}
+
+h2 {
+  font-size: 24px;
+  text-align: center;
+}
+
+.formContainer p {
+  font-size: 14px;
+  text-align: center;
+  color: #393a3d;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  width: 100%;
+}
+
+fieldset {
+  display: flex;
+  flex-direction: column;
+}
+
+fieldset label {
+  color: #404040;
+  font-size: 14px;
+  line-height: 25px;
+}
+
+fieldset input {
+  margin-top: 6px;
+  height: 28px;
+  margin-bottom: 30px;
+  border: 1px solid #c1c5c8;
+  border-radius: 3%;
+}
+
+fieldset input:focus {
+  border: 1px solid #52a8ec;
+  outline: 0 none;
+  box-shadow: 0 0 8px rgba(82, 168, 236, 0.6);
+}
+
+form button {
+  display: flex;
+  font-size: 15.75px;
+  border-radius: 2%;
+  padding: 10px 0;
+  border-color: #0077c5;
+  justify-content: center;
+  align-items: center;
+}
+
+#disclaimer {
+  font-style: italic;
+  color: #757575;
+  font-size: 12px;
+  margin-top: 16px;
+}
+
+.captchaContainer {
+  display: flex;
+  height: 100%;
+  border: 1px solid #c7c7c7;
+  border-top: 0px;
+  background-color: #eceef1;
+  justify-content: center;
+}
+
+#captcha {
+  font-size: 10px;
+  color: #8d9096;
+  padding: 14px 0;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 14px;
+  color: #505050;
+}
+
+footer a {
+  color: #505050;
+}
+footer li {
+  display: inline-block;
+  margin: 0 3px;
+}
